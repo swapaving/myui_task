@@ -1,0 +1,243 @@
+  <!-- Start your project here-->
+  <div class="container-fluid pt-2" style="height: 100vh;">
+    
+      <div class="row col-12 pl-0">
+          <div class="col-4 col-lg-2 nav-bar pr-0 pl-2">
+            <nav class="nav flex-column lighten-3 py-4 mb-r font-weight-bold z-depth-0">
+              <a class="navbar-brand border-bottom mb-5" href="#"> <img src="../assets/icons/Group 6878.svg" alt="logo"></a>
+              <a class="nav-link active" href="#"><img src="../assets/icons/wallet alt.svg" alt="wallet"><span class="ml-3">Wallet</span></a>
+              <a class="nav-link white-text" href="#"><img src="../assets/icons/group-community.svg" alt="wolfpacks"><span class="ml-3">Wolfpacks</span></a>
+              <a class="nav-link white-text" href="#"><img src="../assets/icons/Group 148.svg" alt="portfolio"><span class="ml-3">Portfolio</span></a>
+              <a class="nav-link white-text" href="#"><img src="../assets/icons/transparency.svg" alt="transparency"> <span class="ml-3">Transparency</span></a>
+              <a class="nav-link white-text" href="#"><img src="../assets/icons/Group 157.svg" alt="all properties"><span class="ml-3">All Properties</span></a>
+            </nav>
+            
+              <!--Card-->
+              <mdb-card cascade="true" wider="true" class="mr-3 mt-5 account-left-panel">
+          
+                
+                  <div class="d-flex justify-content-between"><img src="../assets/icons/check.svg" class="rounded mx-auto d-block"><mdb-icon fas icon="times-circle" class="white-text p-1"></mdb-icon></div>
+                  
+          
+                <mdb-card-body cascade="true" class="text-left m-2">
+                  <!--Card content-->
+                 
+                  <mdb-card-text class="white-text">
+                    Your account is not yet activated to sell Freedom Coins™. Please specify your PayPal payment address to activate your account.
+                  </mdb-card-text>
+          
+                  <a mdbBtn class="waves-light btn-account" mdbWavesEffect>Click here</a>
+          
+                </mdb-card-body>
+                <!--/.Card content-->
+          
+              </mdb-card>
+              <!--/.Card-->
+            
+          </div>
+          <div class="col-12 col-sm-8 col-lg-10 main-content p-0">
+            <div class="col-10">
+              <mdb-navbar SideClass="navbar navbar-toggler navbar-expand-lg navbar-light white">
+                <links class="border-bottom m-0">
+                  <a class="navbar-brand" href="#"></a>
+                    <ul class="navbar-nav mr-auto mt-lg-0">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Overview <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Savings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Investments</a>
+                        </li>
+                    </ul>
+                
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                  <li class="nav-item">
+                    <a class="nav-link"><img src="../assets/icons/Message.svg" alt="message"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link"><img src="../assets/icons/Notification.svg" alt="notification"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link border-investor"><img src="../assets/icons/save-money.svg" class="savemoneyimg" alt="save_money"> Investors</a> 
+                  </li>
+                  <li class="nav-item avatar dropdown ml-3" dropdown>
+                    <a dropdownToggle mdbWavesEffect type="button" class="nav-link dropdown-toggle waves-light p-1" mdbWavesEffect>
+                      <img src="https://mdbootstrap.com/img/Photos/Avatars/avatar-2.jpg" alt="" class="img-fluid" style="height:35px;"> Robert Downey</a>
+                    <div *dropdownMenu class="dropdown-menu dropdown-menu-right dropdown dropdown-primary" role="menu">
+                      <a class="dropdown-item waves-light border-bottom" mdbWavesEffect href="#"><mdb-icon far icon="user" class="grey-text"></mdb-icon> Profile</a>
+                      <a class="dropdown-item waves-light border-bottom" mdbWavesEffect href="#"><mdb-icon far icon="address-card" class="grey-text"></mdb-icon> Update Account</a>
+                      <a class="dropdown-item waves-light" mdbWavesEffect href="#"><mdb-icon fas icon="power-off" class="grey-text"></mdb-icon> Log out</a>
+                    </div>
+                  </li>
+                </ul>
+              </links>
+              <!-- Collapsible content -->
+            </mdb-navbar>
+            <div class="row ml-5 p-3">
+              <div class="col-md-6">
+                <div class="row">
+                  <div class="col-md-6 mb-2">Total Balance <img src="../assets/icons/Component 171 – 3.svg" alt="info"> : $60.00</div>
+                  <div class="col-md-6 mb-2">Wallet Address <mdb-icon fas icon="barcode" class="grey-text"></mdb-icon></div>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <mdb-card>
+                      <mdb-card-header>Checking</mdb-card-header>
+                      <mdb-card-body>
+                        <p><span>Cash</span><span class="ml-2"> : $20.00</span></p>
+                        <p>Buy Coins<sup class="grey-text">TM</sup></p>
+                        <div>
+                          <form class="form-inline">
+                            <div><input type="number" value="0" class="form-control txtnumber">
+                           <button class="btn white-text sellbuybtn">Buy</button> </div>
+                          </form>
+                          
+                        </div>
+                      </mdb-card-body>
+                      
+                    </mdb-card>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <mdb-card>
+                      <mdb-card-header>Transfers</mdb-card-header>
+                      <mdb-card-body>
+                        <p><span>Paypal</span><span class="ml-2">Bank Account</span></p>
+                        <p>Sell Coins<sup class="grey-text">TM</sup></p>
+                        <div>
+                          <form class="form-inline">
+                            <div><input type="number" value="0" class="form-control txtnumber">
+                            <button class="btn white-text sellbuybtn">Sell</button></div> 
+                          </form>
+                        </div>
+                      </mdb-card-body>
+                      
+                    </mdb-card>
+                  </div>
+                  
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-2">
+                    <mdb-card>
+                      <mdb-card-header>Savings</mdb-card-header>
+                      <mdb-card-body>
+                        <p><span>Invested</span><span class="ml-2">: $20.00</span></p>
+                        <p><span>Total Payout <img src="../assets/icons/Component 171 – 3.svg" alt="info"></span><span class="ml-2">: $20.00</span></p>
+                        
+                      </mdb-card-body>
+                      
+                    </mdb-card>
+                  </div>
+                  <div class="col-md-6 mb-2">
+                    <mdb-card>
+                      <mdb-card-header>Investments</mdb-card-header>
+                      <mdb-card-body>
+                        <p><span>Invested</span><span class="ml-2">: $20.00</span></p>
+                        <p><span>Contributed</span><span class="ml-2">: $20.00</span></p>
+                        
+                      </mdb-card-body>
+                      
+                    </mdb-card>
+                  </div>
+                  
+                
+              </div>
+              <!--Table Start-->
+              <p class="font-weight-bold m-3">Recent Transaction</p>
+              <div class="table-responsive">
+                <table class="table">
+                  <thead>
+                    <tr>
+                      <th scope="col">Date</th>
+                      <th scope="col">Transaction</th>
+                      <th scope="col">Amount</th>
+                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>20922 Avalon Drive (Jon Hea..) — Dividend</td>
+                      <td class="green-text">$10.00</td>
+                      
+                    </tr>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>20922 Avalon Drive (Jon Hea..) — Purchase</td>
+                      <td>-$1000.00</td>
+                    </tr>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>Freedom Coin — Deposit</td>
+                      <td class="green-text">$10.00</td>
+                    </tr>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>Freedom Coin — Withdrawal</td>
+                      <td>-$500.00</td>
+                    </tr>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>Profit Wolfpack (Alpha Name) — Purchase</td>
+                      <td>-$400.00</td>
+                    </tr>
+                    <tr>
+                      <td>09 Mar 2020</td>
+                      <td>Non Profit Wolfpack (Alpha N..) — Contribute</td>
+                      <td>-$400.00</td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="flex-row">
+                  <a class="card-link float-right">View More</a>
+                </div>
+              </div>
+              <!--Table End-->
+              </div>
+              <div class="col-md-6 mt-2 mb-2">
+                <mdb-card>
+                  <ul class="list-group list-group-flush p-2">
+                    <li class="list-group-item">Available Assets</li>
+                    <li class="list-group-item">
+                      <p class="d-inline"><img src="../assets/icons/Property/Property.png" class="float-left" alt="covid"></p>
+                      <p class="d-inline text-justify asset-title"> Potential Covid-19 Cure: Clinical Trial<br/></p>
+                      <p class="d-inline text-justify asset-desc">Description: <br/> A well known, safe, generic medication that has been used for decades has been shown to….</p>
+                    </li>
+                    <li class="list-group-item">
+                      <p class="d-inline"><img src="../assets/icons/Img 1/Img 1.png" class="float-left" alt="covid"></p>
+                      <p class="d-inline text-justify asset-title"> Mission <img src="../assets/icons/For Profit Icon.svg"  alt="profiticon"> <br/></p>
+                      <p class="d-inline text-justify asset-desc">Description: <br/> Ownership in Minuteman is decentralized and distributed democratically across its base of…</p>
+                    </li>
+                    <li class="list-group-item">
+                      <p class="d-inline"><img src="../assets/icons/Img 2/Img 2.png" class="float-left" alt="covid"></p>
+                      <p class="d-inline text-justify asset-title"> 20922 Avalon Drive<br/></p>
+                      <p class="d-inline text-justify asset-desc">Address: <br/> 8801 Holly Road Tullahoma,<br/> TN 37388</p>
+                    </li>
+                    <li class="list-group-item">
+                      <p class="d-inline"><img src="../assets/icons/Img 4/Img 4.png" class="float-left" alt="covid"></p>
+                      <p class="d-inline text-justify asset-title"> 17456 Eastgate Drive<br/></p>
+                      <p class="d-inline text-justify asset-desc">Address: <br/> 23 North Briarwood Avenue Williamsburg,<br/> VA 23185</p>
+                    </li>
+                  </ul>
+                  <div class="flex-row">
+                    <a class="card-link float-right pr-3 pb-3">View More</a>
+                  </div>
+                  
+                </mdb-card>
+              </div>
+            </div>
+          </div>
+           
+
+            <div class="col-12 col-sm-8 col-lg-10 footer d-flex justify-content-end">
+              <div class="footer-text pt-4 pr-2">Go to Mobile Responsive View </div><div><img src="../assets/icons/compLogo/200 x 200.png" class="rounded mx-auto d-block"></div>
+            </div>
+          </div>
+          
+        </div>
+      
+    
+  </div>
+  <!-- End your project here-->
